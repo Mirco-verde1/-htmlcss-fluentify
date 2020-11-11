@@ -4,12 +4,16 @@
 	box-sizing: border-box;}
 
 /* UTILITY CLASS */
+h1{
+	font-size: 50px;
+	color: #f2f2f2;}
+
 ul li{
 	display: inline-block;
 	color:  #f2f2f2;
 	font-size: 13px;
-	padding-left: 10px;
-}
+	padding-left: 10px;}
+
 .fl{float: left;}
 
 .pad20{	padding: 0 0 50px 0;}
@@ -38,7 +42,6 @@ ul li{
 
 
 /* BARRA NAVIGATORE */
-
 .navigator-bar-right {
 	padding-left: 100px;
 }
@@ -55,9 +58,18 @@ ul li{
 }
 /* MAIN TITLE */
 
-.title h1{
-	position: relative;
-	left: 0;
-	top: 50%;
+.title{
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	bottom: 60%;
+	left: 50px;}
 
-}
+	.title h4{
+	background-color: #00cc00;
+	border-radius: 5px;
+	width: 150px;
+	font-size: 15px;
+	padding: 8px;
+	color:  #f2f2f2;
+	}
