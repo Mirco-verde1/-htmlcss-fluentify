@@ -3,6 +3,9 @@
 	box-sizing: border-box;}
 
 /* UTILITY CLASS */
+.font{
+	font-size: 30px;
+}
 h1{font-size: 50px;
 	color: #f2f2f2;}
 
@@ -107,5 +110,15 @@ ul li{display: inline-block;
 .box p{padding-top: 10px;}
 
 .box span{color:#00cc00;}
+
+/* END PRIMA ROW */
+
+/* SECONDA ROW MAIN */
+
+.box-2{
+	padding: 20px;
+	width:35%;
+	height: 500px;
+	margin: 20px 90px;}
 
 /* END PARTE CENTRALE */
