@@ -3,6 +3,8 @@
 	box-sizing: border-box;}
 
 /* UTILITY CLASS */
+a{text-decoration: none;
+}
 .font{
 	font-size: 30px;
 }
@@ -18,6 +20,12 @@ ul li{display: inline-block;
 
 .pad20{	padding: 0 0 50px 0;}
 
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /* END UTILITY CLASS */
 
 .header-content{
@@ -28,9 +36,9 @@ ul li{display: inline-block;
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin:0 auto;
+	position: relative;
 	background-color: #0044cc;
 	background-position: 150px 80px;
-	position: relative;
 }
 .fluentify-logo{
 	padding: 10px 5%;}
@@ -84,6 +92,9 @@ ul li{display: inline-block;
 	height: 700px;
 	position: relative;
 	border-bottom: 2px solid black;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .top-container{
@@ -115,10 +126,28 @@ ul li{display: inline-block;
 
 /* SECONDA ROW MAIN */
 
+.contenitore{
+	width: 100%;
+}
+
 .box-2{
 	padding: 20px;
 	width:35%;
 	height: 500px;
 	margin: 20px 90px;}
+
+/* END SECONDA ROW */
+
+/* FOOTER MAIN */
+
+.footer{
+	width: 1300px;
+	height:150px;
+	background:#ccc;
+
+	}
+
+
+
 
 /* END PARTE CENTRALE */
